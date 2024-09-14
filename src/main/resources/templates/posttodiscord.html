@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Post to DS Channel</title>
+</head>
+<body>
+<h1>Post to DS</h1>
+<form action="#" th:action="@{/discord/send}" method="post">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    <br><br>
+    <input type="submit" value="POST">
+</form>
+</body>
+</html>
